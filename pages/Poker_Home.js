@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import 'animate.css';
 function Poker_Home() {
     return ( 
         <>
@@ -14,12 +15,14 @@ function Poker_Home() {
               <div className={styles.box2_b}>
                    <h1>Get the Fundamentals of Poker at Your Fingertips</h1>
                   <p className={styles.box2_p}>New to poker? Download our interactive multimedia learning app and join the platform for beginners! Poker School is power-packed with features that are essential to understanding the game and helping a newcomer develop their skills.</p>
-                  <button className={styles.box2_btn}>get the app</button>
+                <a href='https://play.google.com/store/apps/details?id=com.baazigames.pokerbaazi.school'>
+                <button className={styles.box2_btn}>get the app</button>
+                    </a>  
 
               </div>
 
               <div className={styles.box2_c}>
-                  <img loading="lazy" src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner-1.png' alt='' style={{ width: "100%" }} />
+                  <img loading='lazy' className={["animate__animated animate__zoomIn"]} src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner-1.png' alt='' style={{ width: "100%" }} />
               </div>
           </div>
           <div className={styles.box2_bkg}></div>
@@ -33,7 +36,7 @@ function Poker_Home() {
               </div>
 
               <div className={styles.box3_2}>
-                  <div className={styles.card1}>
+                  <div className={styles["card1"]+" "+ [" animate__animated animate__zoomIn"]}>
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
                               <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Video-chapters.png' alt='' style={{ maxWidth: "100%" }} />
@@ -43,10 +46,10 @@ function Poker_Home() {
                           <p>The foundation for learning any game is getting your basics right. Created by experts, our lessons are simple and easy to understand so that you can learn the a-b-c’s of poker.</p>
                       </div>
                   </div>
-                  <div className={styles.card1}>
+                  <div className={styles["card1"]+""+ [" animate__animated animate__zoomIn"]}>
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
-                              <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Quizzes.png' alt='' style={{ maxWidth: "100%" }} />
+                              <img loading='lazy'  src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Quizzes.png' alt='' style={{ maxWidth: "100%" }} />
                           </div>
                           <h4>
                               <span>Quizzes</span>
@@ -54,7 +57,7 @@ function Poker_Home() {
                           <p>Knowledge checks are crucial to your learning journey. Set your understanding of the game right with quizzes that get you poker ready!</p>
                       </div>
                   </div>
-                  <div className={styles.card1_last}>
+                  <div className={styles["card1_last"]+""+ [" animate__animated animate__zoomIn"]}> 
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
                               <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/live-streaming.png' alt='' style={{ maxWidth: "100%" }} />
@@ -177,7 +180,7 @@ function Poker_Home() {
               </div>
 
               <div className={styles.box2_c}>
-                  <img loading="lazy" src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner-1.png' alt='' style={{ width: "100%" }} />
+                  <img className={["animate__animated animate__zoomIn"]} src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner-1.png' alt='' style={{ width: "100%" }} />
               </div>
           </div>
           <div className={styles.box2_bkg}></div>
@@ -190,7 +193,7 @@ function Poker_Home() {
               </div>
 
               <div className={styles.box3_2}>
-                  <div className={styles.card1}>
+                  <div className={styles["card1"]+""+ [" animate__animated animate__zoomIn"]}>
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
                               <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Video-chapters.png' alt='' style={{ maxWidth: "100%" }} />
@@ -200,7 +203,7 @@ function Poker_Home() {
                           <p>The foundation for learning any game is getting your basics right. Created by experts, our lessons are simple and easy to understand so that you can learn the a-b-c’s of poker.</p>
                       </div>
                   </div>
-                  <div className={styles.card1}>
+                  <div className={styles["card1"]+""+ [" animate__animated animate__zoomIn"]}>
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
                               <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Quizzes.png' alt='' style={{ maxWidth: "100%" }} />
@@ -211,7 +214,7 @@ function Poker_Home() {
                           <p>Knowledge checks are crucial to your learning journey. Set your understanding of the game right with quizzes that get you poker ready!</p>
                       </div>
                   </div>
-                  <div className={styles.card1_last}>
+                  <div className={styles["card1_last"]+""+ [" animate__animated animate__zoomIn"]}>
                       <div className={styles.card1_inner}>
                           <div style={{ marginBottom: "30px" }}>
                               <img loading='lazy' src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/live-streaming.png' alt='' style={{ maxWidth: "100%" }} />
