@@ -87,7 +87,7 @@ function Poker_Home() {
                   <div className={styles.box4_b}>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-beat-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-beat-the-Best.png' alt='' style={{ width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn from the Best</h4>
@@ -96,7 +96,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-play-on-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-play-on-the-Best.png' alt='' style={{ width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn to play on the Best</h4>
@@ -105,7 +105,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-from-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-from-the-Best.png' alt='' style={{ width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn to beat the Best</h4>
@@ -114,7 +114,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1_last_child}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner.png' alt='' style={{  width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Be a part of the Best Poker Community</h4>
@@ -243,7 +243,7 @@ function Poker_Home() {
                   <div className={styles.box4_b}>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-beat-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-beat-the-Best.png' alt='' style={{  width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn from the Best</h4>
@@ -252,7 +252,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-play-on-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-to-play-on-the-Best.png' alt='' style={{  width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn to play on the Best</h4>
@@ -261,7 +261,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-from-the-Best.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/Learn-from-the-Best.png' alt='' style={{  width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Learn to beat the Best</h4>
@@ -270,7 +270,7 @@ function Poker_Home() {
                       </div>
                       <div className={styles.box4_b1_last_child}>
                           <div className={styles.box4_img}>
-                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner.png' alt='' style={{ maxWidth: '100%', width: "80px", height: '80px' }} />
+                              <img src='https://www.pokerschool.co.in/wp-content/uploads/2021/10/main-banner.png' alt='' style={{ width: "80px", height: '80px' }} />
                           </div>
                           <div className={styles.box_b_text}>
                               <h4>Be a part of the Best Poker Community</h4>
